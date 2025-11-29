@@ -5,6 +5,9 @@ import Services from '../components/Services'
 import Contact from './Contact'
 import Review from '../components/Review'
 import Pricing from '../components/Pricing'
+import Faq from '../components/Faq'
+import OurTeam from '../components/OurTeam'
+
 
 const Home = () => {
   return (
@@ -13,8 +16,10 @@ const Home = () => {
 <OurWork/>
 <Services/>
 <Pricing/>
+<Faq/>
 <Contact/>
 <Review/>
+<OurTeam/>
 </>
   )
 }

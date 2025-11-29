@@ -1,31 +1,53 @@
 import React from 'react'
-import { HashRouter, Route, Routes,} from 'react-router-dom'
-import Home from './pages/Home'
-import Header from './ui/Header'
-import About from './pages/About'
+import Hero from './components/Hero'
+import Services from './components/Services'
+import OurWork from './components/OurWork'
+import Pricing from './components/Pricing'
+import Review from './components/Review'
+import OurTeam from './components/OurTeam'
+import Faq from './components/Faq'
 import Contact from './pages/Contact'
 import Footer from './ui/Footer'
+import Header from './ui/Header'
+
 const App = () => {
   return (
     <>
-  
-<HashRouter>
-<Header/>
-<Routes>
-
-
-<Route path='/' element={<Home/>}  />
-<Route path='/about' element={<About/>}  />
-<Route path='/contact' element={<Contact/>}  />
-<Route path='/' element={<Home/>}  />
-
-
-
-</Routes>
-<Footer/>
-
-</HashRouter>
-    
+      <Header/>
+      
+      <div id="home">
+        <Hero />
+      </div>
+      
+      <div id="services">
+        <Services />
+      </div>
+      
+      <div id="work">
+        <OurWork />
+      </div>
+      
+      <div id="pricing">
+        <Pricing />
+      </div>
+      
+      <div id="testimonials">
+        <Review />
+      </div>
+      
+      <div id="team">
+        <OurTeam />
+      </div>
+      
+      <div id="faq">
+        <Faq />
+      </div>
+      
+      <div id="contact">
+        <Contact />
+      </div>
+      
+      <Footer />
     </>
   )
 }

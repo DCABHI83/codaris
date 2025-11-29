@@ -7,7 +7,7 @@ const Services = () => {
 
   return (
     <>
-      <div className='flex flex-col items-center py-'>
+      <div className='flex flex-col items-center py-15'>
         <motion.div 
           className='flex flex-col gap-2 mb-16 px-4 text-center'
           initial={{ opacity: 0, y: 50 }}

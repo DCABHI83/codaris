@@ -13,7 +13,7 @@ const OurWork = () => {
 
   return (
     <>
-      <div className="w-full overflow-hidden py-16">
+      <div className="w-full overflow-hidden py-16 mt-5">
         
         <div className="relative flex">
           <motion.div
