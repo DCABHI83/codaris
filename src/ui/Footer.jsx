@@ -21,9 +21,9 @@ const Footer = () => {
               
               {/* Contact Info */}
               <div className='space-y-3'>
-                <a href="mailto:hello@agency.com" className='flex items-center gap-3 text-gray-400 hover:text-white transition-colors'>
+                <a href="mailto:codarisdev@gmail.com" className='flex items-center gap-3 text-gray-400 hover:text-white transition-colors'>
                   <HiMail className='w-5 h-5' />
-                  hello@agency.com
+                  codarisdev@gmail.com
                 </a>
                 <a href="tel:+918210072406" className='flex items-center gap-3 text-gray-400 hover:text-white transition-colors'>
                   <HiPhone className='w-5 h-5' />
@@ -80,7 +80,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row items-center justify-between gap-6'>
               <div className='flex gap-4'>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/company/110202938/admin/dashboard/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className='w-10 h-10 bg-gray-800 hover:bg-white rounded-lg flex items-center justify-center transition-colors group'
@@ -88,37 +88,25 @@ const Footer = () => {
                   <FaLinkedin className='w-5 h-5 text-gray-400 group-hover:text-black transition-colors' />
                 </a>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/codarisdev-debug" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className='w-10 h-10 bg-gray-800 hover:bg-white rounded-lg flex items-center justify-center transition-colors group'
                 >
                   <FaGithub className='w-5 h-5 text-gray-400 group-hover:text-black transition-colors' />
                 </a>
+
+                
+            
                 <a 
-                  href="https://twitter.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className='w-10 h-10 bg-gray-800 hover:bg-white rounded-lg flex items-center justify-center transition-colors group'
-                >
-                  <FaTwitter className='w-5 h-5 text-gray-400 group-hover:text-black transition-colors' />
-                </a>
-                <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/codaris.dev/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className='w-10 h-10 bg-gray-800 hover:bg-white rounded-lg flex items-center justify-center transition-colors group'
                 >
                   <FaInstagram className='w-5 h-5 text-gray-400 group-hover:text-black transition-colors' />
                 </a>
-                <a 
-                  href="https://dribbble.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className='w-10 h-10 bg-gray-800 hover:bg-white rounded-lg flex items-center justify-center transition-colors group'
-                >
-                  <FaDribbble className='w-5 h-5 text-gray-400 group-hover:text-black transition-colors' />
-                </a>
+              
               </div>
 
               {/* Newsletter */}

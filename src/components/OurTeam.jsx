@@ -30,7 +30,7 @@ const OurTeam = () => {
       phone: '+91 82521 84741',
       socials: {
         linkedin: 'https://linkedin.com/in/aman-kar-4b1804259',
-        github :'https://github.com/Arpit10110'
+        github :'https://github.com/Amankar003'
       }
     },
     {
