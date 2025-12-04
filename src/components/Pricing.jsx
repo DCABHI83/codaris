@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 
 const Pricing = () => {
-  const [isRental, setIsRental] = useState(false);
+  const [isRental, setIsRental] = useState(true);
 
   const oneTimePlans = [
     {
