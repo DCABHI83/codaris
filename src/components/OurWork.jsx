@@ -24,7 +24,7 @@ const OurWork = () => {
           <motion.div
             className="flex gap-6 px-3"
             animate={{
-              x: [0, -((500 + 24) * images.length)],
+              x: [0, -((300 + 24) * images.length)],
             }}
             transition={{
               x: {

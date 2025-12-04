@@ -6,37 +6,37 @@ const Review = () => {
     {
       id: 1,
       text: "Before, we wasted time going back and forth with designers. Now we get clean, clear visuals on the first try. Which lets us focus on what really matters.",
-      name: "Marcus Lee",
+      name: "Arjun Sharma",
       position: "Product Manager, NovaTech",
-      image: "/api/placeholder/80/80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
     },
     {
       id: 2,
       text: "It's not just about looking good. It's about showing up confidently every time. That's what they help us do, and it's changed how our team feels about our brand.",
-      name: "Bruno Rivera",
+      name: "Priya Patel",
       position: "Brand Strategist, Studio Hive",
-      image: "/api/placeholder/80/80"
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
     },
     {
       id: 3,
       text: "We were struggling to present ourselves professionally until we worked with them. Now our brand looks like it belongs with the leaders in our space.",
-      name: "Malik Johnson",
+      name: "Rahul Verma",
       position: "Founder, GrowthLoop",
-      image: "/api/placeholder/80/80"
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop"
     },
     {
       id: 4,
       text: "The attention to detail is incredible. Every design element feels intentional and perfectly aligned with our brand vision. Truly exceptional work.",
-      name: "Sarah Chen",
+      name: "Ananya Reddy",
       position: "CEO, PixelCraft",
-      image: "/api/placeholder/80/80"
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
     },
     {
       id: 5,
       text: "They transformed our entire digital presence. What used to take weeks now happens in days, with better results every single time.",
-      name: "David Kumar",
+      name: "Vikram Desai",
       position: "Creative Director, Sparkle Studios",
-      image: "/api/placeholder/80/80"
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop"
     }
   ];
 
@@ -53,9 +53,9 @@ const Review = () => {
 
         {/* Marquee Section */}
         <div className='relative overflow-hidden mt-16'>
-          {/* linear Fades */}
-          <div className='absolute left-0 top-0 bottom-0 w-32 bg-linear-to-r from-white to-transparent z-10' />
-          <div className='absolute right-0 top-0 bottom-0 w-32 bg-linear-to-l from-white to-transparent z-10' />
+          {/* Gradient Fades */}
+          <div className='absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white to-transparent z-10' />
+          <div className='absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10' />
 
           {/* Scrolling Testimonials */}
           <motion.div
