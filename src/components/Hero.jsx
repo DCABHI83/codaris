@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaWhatsapp, FaPhone } from 'react-icons/fa'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -42,6 +44,87 @@ const Hero = () => {
     </a>
    </div>
 
+   </div>
+
+   {/* Floating Contact Buttons - Vertical Center Right */}
+   <div className='fixed top-1/2 -translate-y-1/2 right-8 flex flex-col gap-4 z-[99999]'>
+     
+     {/* WhatsApp Button */}
+     <motion.a
+       href="https://wa.me/918210072406?text=Hi!%20I%20am%20interested%20in%20your%20services."
+       target='_blank'
+       rel='noopener noreferrer'
+       className='group relative w-14 h-14 bg-[#25D366] hover:bg-[#20BA5A] rounded-full flex items-center justify-center shadow-xl transition-all'
+       initial={{ scale: 0, opacity: 0 }}
+       animate={{ 
+         scale: [0, 1.1, 1],
+         opacity: 1
+       }}
+       transition={{ 
+         duration: 0.5,
+         delay: 1,
+         ease: "easeOut"
+       }}
+       whileHover={{ scale: 1.1 }}
+       whileTap={{ scale: 0.95 }}
+     >
+       <motion.div
+         animate={{ 
+           rotate: [0, 15, -15, 0]
+         }}
+         transition={{
+           duration: 1.5,
+           repeat: Infinity,
+           repeatDelay: 3,
+           ease: "easeInOut"
+         }}
+       >
+         <FaWhatsapp className='text-white text-2xl' />
+       </motion.div>
+       
+       {/* Tooltip */}
+       <span className='absolute right-16 bg-gray-900 text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none'>
+         Chat on WhatsApp
+       </span>
+     </motion.a>
+
+     {/* Call Button */}
+     <motion.a
+       href="tel:+918210072406"
+       className='group relative w-14 h-14 bg-[#E34400] hover:bg-[#C73A00] rounded-full flex items-center justify-center shadow-xl transition-all'
+       initial={{ scale: 0, opacity: 0 }}
+       animate={{ 
+         scale: [0, 1.1, 1],
+         opacity: 1
+       }}
+       transition={{ 
+         duration: 0.5,
+         delay: 1.2,
+         ease: "easeOut"
+       }}
+       whileHover={{ scale: 1.1 }}
+       whileTap={{ scale: 0.95 }}
+     >
+       <motion.div
+         animate={{ 
+           rotate: [0, 20, -20, 0]
+         }}
+         transition={{
+           duration: 1.5,
+           repeat: Infinity,
+           repeatDelay: 3,
+           delay: 0.5,
+           ease: "easeInOut"
+         }}
+       >
+         <FaPhone className='text-white text-xl' />
+       </motion.div>
+       
+       {/* Tooltip */}
+       <span className='absolute right-16 bg-gray-900 text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none'>
+         Call Us Now
+       </span>
+     </motion.a>
    </div>
    </>
   )
