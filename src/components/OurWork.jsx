@@ -13,7 +13,7 @@ import image9 from '../assets/image9.png'
 const OurWork = () => {
   const images = [image1, image2, image3, image4,image5,image6,image7,image8,image9];
   
-  // Duplicate images for seamless loop
+ 
   const duplicatedImages = [...images, ...images];
 
   return (
@@ -38,14 +38,14 @@ const OurWork = () => {
             {duplicatedImages.map((img, index) => (
               <motion.div
                 key={index}
-                className="shrink-0 w-[500px] h-[350px] rounded-3xl overflow-hidden"
+                className="shrink-0 w-[500px] h-[350px] rounded-2xl overflow-hidden "
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
                 <img
                   src={img}
                   alt={`Work ${(index % images.length) + 1}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   draggable="false"
                 />
               </motion.div>

@@ -46,7 +46,7 @@ const Review = () => {
   return (
     <>
       <div>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center text-center'>
           <h1 className='text-[#B5B5B5] font-mono text-xl'>TESTIMONIALS</h1>
           <h1 className='text-5xl font-inter'>We love what we do, and <span className='text-6xl font-instrument italic'>they love the results.</span></h1>
         </div>

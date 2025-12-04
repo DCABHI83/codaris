@@ -12,15 +12,16 @@ const Header = () => {
   return (
     <>
       <div className='flex justify-between items-center px-6 md:px-12 py-5 relative'>
-      
-        <div className='z-50'>
-          <img src={logo} alt="Logo" className='w-30 md:w-24 h-auto object-contain' />
+        {/* Logo */}
+        <div>
+          <img src={logo} alt="Logo" className='w-20 md:w-24 h-auto object-contain' />
         </div>
 
+        {/* Desktop Navigation */}
         <div className='hidden md:flex gap-8 text-[#B5B5B5] font-mono text-base'>
           <a href="#home" className='hover:text-black transition-colors'>Home</a>
           <a href="#work" className='hover:text-black transition-colors'>Work</a>
-          <a href="#about" className='hover:text-black transition-colors'>About</a>
+          <a href="#pricing" className='hover:text-black transition-colors'>Pricing</a>
           <a href="#services" className='hover:text-black transition-colors'>Services</a>
           <a href="#contact" className='hover:text-black transition-colors'>Contact</a>
         </div>
@@ -33,10 +34,10 @@ const Header = () => {
           Let's Talk
         </a>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Button - Higher z-index */}
         <button 
           onClick={toggleMenu}
-          className='md:hidden text-3xl text-gray-800 z-50 relative'
+          className='md:hidden text-3xl text-gray-800 z-[60] relative'
           aria-label="Toggle menu"
         >
           {isMenuOpen ? <HiX /> : <HiMenu />}
@@ -46,7 +47,7 @@ const Header = () => {
         <div 
           className={`
             fixed top-0 right-0 h-full w-72 bg-white shadow-2xl 
-            transform transition-transform duration-300 ease-in-out z-40
+            transform transition-transform duration-300 ease-in-out z-50
             ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
             md:hidden
           `}
@@ -74,11 +75,11 @@ const Header = () => {
               About
             </a>
             <a 
-              href="#services" 
+              href="#pricing" 
               onClick={toggleMenu} 
               className='text-lg font-mono text-[#B5B5B5] hover:text-black transition-colors py-2 border-b border-gray-100'
             >
-              Services
+           Pricing
             </a>
             <a 
               href="#contact" 
@@ -103,7 +104,7 @@ const Header = () => {
         {isMenuOpen && (
           <div 
             onClick={toggleMenu}
-            className='fixed inset-0 bg-black/50 z-30 md:hidden backdrop-blur-sm'
+            className='fixed inset-0 bg-black/50 z-40 md:hidden backdrop-blur-sm'
           />
         )}
       </div>

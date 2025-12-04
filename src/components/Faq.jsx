@@ -54,7 +54,7 @@ const Faq = () => {
   return (
     <>
       <div className='py-16 px-4 bg-linear-to-br from-gray-50 via-white to-gray-100 w-full'>
-        {/* Header */}
+     
         <div className='flex flex-col items-center mb-16'>
           <h3 className='text-gray-400 font-mono text-sm uppercase tracking-wider mb-4'>FAQ</h3>
           <h1 className='text-5xl md:text-6xl font-inter font-bold text-center mb-4'>
@@ -66,8 +66,8 @@ const Faq = () => {
           </p>
         </div>
 
-        {/* FAQ Accordion */}
-        <div className='max-w-full mx-auto p-10'>
+       
+        <div className='max-w-full mx-auto md:p-10'>
           {faqs.map((faq, index) => (
             <motion.div
               key={index}

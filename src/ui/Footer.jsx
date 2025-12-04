@@ -13,7 +13,7 @@ const Footer = () => {
           <div className='grid md:grid-cols-4 gap-12'>
             {/* Company Info */}
             <div className='md:col-span-2'>
-              <h3 className='text-3xl font-bold mb-4'>YourAgency</h3>
+              <h3 className='text-3xl font-bold mb-4'>Codaris</h3>
               <p className='text-gray-400 mb-6 max-w-md'>
                 We craft beautiful, functional websites that help businesses grow. 
                 From design to deployment, we've got you covered.
@@ -31,7 +31,7 @@ const Footer = () => {
                 </a>
                 <div className='flex items-center gap-3 text-gray-400'>
                   <HiLocationMarker className='w-5 h-5' />
-                  Mumbai, India
+                  Noida, India
                 </div>
               </div>
             </div>
