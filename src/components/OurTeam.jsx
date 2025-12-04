@@ -52,7 +52,7 @@ const OurTeam = () => {
       image: ayush,
       bio: 'Expert in digital marketing strategies and SEO optimization to grow your online presence.',
       email: 'ag7452517@gmail.com',
-      phone: '+91 98765 43213',
+      phone: '+91 62059 61622',
       socials: {
         linkedin: 'https://www.linkedin.com/in/ayush-kumar-gupta-792a93227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         instagram: 'https://instagram.com/ayush__gupta_06'
