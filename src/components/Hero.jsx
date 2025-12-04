@@ -46,8 +46,8 @@ const Hero = () => {
 
    </div>
 
-   {/* Floating Contact Buttons - Vertical Center Right */}
-   <div className='fixed top-1/2 -translate-y-1/2 right-8 flex flex-col gap-4 z-[99999]'>
+   {/* Floating Contact Buttons */}
+   <div className='fixed bottom-8 right-8 flex flex-col gap-4 z-[99999]'>
      
      {/* WhatsApp Button */}
      <motion.a

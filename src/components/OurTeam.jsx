@@ -22,10 +22,10 @@ const OurTeam = () => {
       }
     },
     {
-      name: 'Aman Kummar Kar',
+      name: 'Aman Kumar Kar',
       role: 'UI/UX Designer,AI/ML Engineer',
       image: aman,
-      bio: 'Creative designer passionate about crafting beautiful and intuitive user experiences.',
+      bio: 'AI/ML Engineer and UI/UX Designer with strong skills in machine learning, data analysis, and creating clean, user-centered digital experiences.',
       email: 'amankar125@gmail.com',
       phone: '+91 82521 84741',
       socials: {
