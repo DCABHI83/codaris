@@ -2,59 +2,60 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { HiMail, HiPhone } from 'react-icons/hi'
 import { FaLinkedin, FaGithub, FaTwitter, FaDribbble, FaBehance, FaInstagram } from 'react-icons/fa'
-
+import ayush from '../assets/ayush.jpeg'
+import aman from '../assets/aman.jpeg'
+import arpit from '../assets/arpit.jpeg'
+import abhishek from '../assets/abhishekl.jpeg'
 const OurTeam = () => {
   const team = [
     {
-      name: 'Alex Johnson',
-      role: 'Founder & Lead Developer',
-      image: '/api/placeholder/300/300',
+      name: 'Arpit Kumar Agrahari',
+      role: 'Lead Developer',
+      image: arpit,
       bio: 'Full-stack developer with 5+ years of experience building scalable web applications.',
-      email: 'alex@agency.com',
-      phone: '+91 98765 43210',
+      email: 'omagrahari55@gmail.com',
+      phone: '+91 95990 56856',
       socials: {
-        linkedin: 'https://linkedin.com/in/alexjohnson',
-        github: 'https://github.com/alexjohnson',
-        twitter: 'https://twitter.com/alexjohnson'
+        linkedin: 'https://linkedin.com/in/arpit-agrahari-54aa192a1',
+        github: 'https://github.com/Arpit10110',
+       
       }
     },
     {
-      name: 'Sarah Williams',
-      role: 'UI/UX Designer',
-      image: '/api/placeholder/300/300',
+      name: 'Aman Kummar Kar',
+      role: 'UI/UX Designer,AI/ML Engineer',
+      image: aman,
       bio: 'Creative designer passionate about crafting beautiful and intuitive user experiences.',
-      email: 'sarah@agency.com',
-      phone: '+91 98765 43211',
+      email: 'amankar125@gmail.com',
+      phone: '+91 82521 84741',
       socials: {
-        linkedin: 'https://linkedin.com/in/sarahwilliams',
-        dribbble: 'https://dribbble.com/sarahwilliams',
-        behance: 'https://behance.net/sarahwilliams'
+        linkedin: 'https://linkedin.com/in/aman-kar-4b1804259',
+        github :'https://github.com/Arpit10110'
       }
     },
     {
-      name: 'Michael Chen',
-      role: 'Backend Developer',
-      image: '/api/placeholder/300/300',
+      name: 'Abhishek Kumar',
+      role: 'Full Stack Developer',
+      image: abhishek,
       bio: 'Specialized in building robust APIs and scalable backend systems with modern technologies.',
-      email: 'michael@agency.com',
-      phone: '+91 98765 43212',
+      email: 'araj10569@gmail.com',
+      phone: '+91 82100 72406',
       socials: {
-        linkedin: 'https://linkedin.com/in/michaelchen',
-        github: 'https://github.com/michaelchen',
-        twitter: 'https://twitter.com/michaelchen'
+        linkedin: 'https://linkedin.com/in/abhishek-kumar-72313820b',
+        github: 'https://github.com/DCABHI83',
+      
       }
     },
     {
-      name: 'Emma Davis',
+      name: 'Ayush Kumar Gupta',
       role: 'Marketing & SEO Specialist',
-      image: '/api/placeholder/300/300',
+      image: ayush,
       bio: 'Expert in digital marketing strategies and SEO optimization to grow your online presence.',
-      email: 'emma@agency.com',
+      email: 'ag7452517@gmail.com',
       phone: '+91 98765 43213',
       socials: {
-        linkedin: 'https://linkedin.com/in/emmadavis',
-        twitter: 'https://twitter.com/emmadavis',
-        instagram: 'https://instagram.com/emmadavis'
+        linkedin: 'https://www.linkedin.com/in/ayush-kumar-gupta-792a93227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        instagram: 'https://instagram.com/ayush__gupta_06'
       }
     }
   ];

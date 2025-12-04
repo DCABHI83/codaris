@@ -68,7 +68,7 @@ const Pricing = () => {
     {
       name: 'Starter',
       firstMonth: '₹29',
-      regularPrice: '₹99',
+      regularPrice: '₹199',
       description: 'Perfect for startups and small businesses',
       features: [
         'Up to 5 pages',
@@ -85,7 +85,7 @@ const Pricing = () => {
     {
       name: 'Professional',
       firstMonth: '₹39',
-      regularPrice: '₹199',
+      regularPrice: '₹299',
       description: 'Ideal for growing businesses',
       features: [
         'Up to 10 pages',
@@ -106,7 +106,7 @@ const Pricing = () => {
     {
       name: 'Enterprise',
       firstMonth: '₹49',
-      regularPrice: '₹299',
+      regularPrice: '₹399',
       description: 'For businesses that need it all',
       features: [
         'Unlimited pages',

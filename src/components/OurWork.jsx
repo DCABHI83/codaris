@@ -1,12 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import image1 from '../assets/image 1.avif'
-import image2 from '../assets/image 2.webp'
-import image3 from '../assets/image 3.jpg'
-import image4 from '../assets/image 4.avif'
+import image1 from '../assets/image1.png'
+import image2 from '../assets/image2.png'
+import image3 from '../assets/image3.png'
+import image4 from '../assets/image4.png'
+import image5 from '../assets/image5.png'
+import image6 from '../assets/image6.png'
+import image7 from '../assets/image7.png'
+import image8 from '../assets/image8.png'
+import image9 from '../assets/image9.png'
 
 const OurWork = () => {
-  const images = [image1, image2, image3, image4];
+  const images = [image1, image2, image3, image4,image5,image6,image7,image8,image9];
   
   // Duplicate images for seamless loop
   const duplicatedImages = [...images, ...images];
