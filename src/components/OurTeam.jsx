@@ -65,7 +65,7 @@ const OurTeam = () => {
       <div className='py-16 px-4'>
         {/* Header */}
         <div className='flex flex-col items-center mb-16'>
-          <h3 className='text-gray-400 font-mono text-sm uppercase tracking-wider mb-4'>Our Team</h3>
+          <h3 className='text-xl text-[#5d5353] font-mono text-sm uppercase tracking-wider mb-4'>Our Team</h3>
           <h1 className='text-5xl md:text-6xl font-inter font-bold text-center mb-4'>
             Meet the <span className='font-instrument italic text-6xl md:text-7xl'>creative minds</span>
           </h1>

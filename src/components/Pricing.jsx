@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 
 const Pricing = () => {
-  const [isRental, setIsRental] = useState(true);
+  const [isRental, setIsRental] = useState(false);
 
   const oneTimePlans = [
     {
@@ -296,7 +296,7 @@ const Pricing = () => {
         )}
 
         {/* Hosting Information Banner */}
-        <div className='max-w-4xl mx-auto mt-12 p-6 bg-blue-50 rounded-xl border border-blue-200'>
+        <div className='max-w-4xl mx-auto mt-12 p-6 bg-blue-50 rounded-xl border border-black-200'>
           <div className='flex items-start gap-3'>
             <svg className='w-6 h-6 text-blue-600 shrink-0 mt-1' fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />

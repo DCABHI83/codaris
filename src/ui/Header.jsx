@@ -18,12 +18,13 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className='hidden md:flex gap-8 text-[#B5B5B5] font-mono text-base'>
-          <a href="#home" className='hover:text-black transition-colors'>Home</a>
-          <a href="#work" className='hover:text-black transition-colors'>Work</a>
-          <a href="#pricing" className='hover:text-black transition-colors'>Pricing</a>
-          <a href="#services" className='hover:text-black transition-colors'>Services</a>
-          <a href="#contact" className='hover:text-black transition-colors'>Contact</a>
+        <div className='hidden md:flex gap-8 text-[#5d5353] font-mono text-base'>
+          <a href="#home" className='hover:text-black transition-colors text-xl'>Home</a>
+          <a href="#work" className='hover:text-black transition-colors text-xl'>Work</a>
+          <a href="#pricing" className='hover:text-black transition-colors text-xl'>Pricing</a>
+          <a href="#services" className='hover:text-black transition-colors text-xl'>Services</a>
+          <a href="#services" className='hover:text-black transition-colors text-xl'>Blogs</a>
+          <a href="#contact" className='hover:text-black transition-colors text-xl'>Contact</a>
         </div>
 
         {/* Desktop CTA Button */}
